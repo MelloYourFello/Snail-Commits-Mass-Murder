@@ -6,6 +6,8 @@ var sprint = keyboard_check(ord(vk_space))
 xSpeed = xDirection * spd;
 ySpeed++;
 
+if (xDirection != 0) image_xscale = xDirection * 4;
+
 if (onTheGround) {
     if (xDirection != 0) { sprite_index = sPlayerR; }
     else { sprite_index = sPlayer; }
@@ -25,6 +27,7 @@ else {spd = w_spd;}
 
 if (place_meeting(x + xSpeed, y, oGrass1)) {
     xSpeed = 0;
+	sprite_index = sPlayer;
 }
 
 x += xSpeed;
