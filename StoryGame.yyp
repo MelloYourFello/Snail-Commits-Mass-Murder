@@ -4,9 +4,15 @@
   "name": "StoryGame",
   "resources": [
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},"order":1,},
+    {"id":{"name":"spr_dirt2","path":"sprites/spr_dirt2/spr_dirt2.yy",},"order":4,},
+    {"id":{"name":"spr_grass2","path":"sprites/spr_grass2/spr_grass2.yy",},"order":5,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"spr_grass1","path":"sprites/spr_grass1/spr_grass1.yy",},"order":2,},
+    {"id":{"name":"spr_grass3","path":"sprites/spr_grass3/spr_grass3.yy",},"order":6,},
+    {"id":{"name":"spr_dirt1","path":"sprites/spr_dirt1/spr_dirt1.yy",},"order":3,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":1,},
+    {"id":{"name":"spr_dirt3","path":"sprites/spr_dirt3/spr_dirt3.yy",},"order":7,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
