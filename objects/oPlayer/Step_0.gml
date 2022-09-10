@@ -1,41 +1,39 @@
-// Player Input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_space);
+var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var jump = keyboard_check_pressed(vk_space);
+var onTheGround = place_meeting(x, y + 1, oGrass1);
+var sprint = keyboard_check(ord(vk_space))
 
-// Calculate Movement
-var move = key_right - key_left;
+xSpeed = xDirection * spd;
+ySpeed++;
 
-hsp = move * walkspd;
-
-vsp = vsp + grv;
-
-if (place_meeting(x,y+1,oGrass1)) && (key_jump)
-{
-	vsp = -7;
-	audio_play_sound(Jump, 10, false);
-}
-
-// Horizontal Collision
-if (place_meeting(x+hsp,y,oGrass1))
-{ 
-	while (!place_meeting(x+sign(hsp),y,oGrass1))
-	{
-		x = x + sign(hsp);
+if (onTheGround) {
+	// if (xDirection != 0) { sprite_index = }
+	// else { sprite_index = }
+	
+	if (jump) {
+		ySpeed = -15;
+		audio_play_sound(Jump, 10, false);
 	}
-	hsp = 0;
-}
-x = x + hsp;
-
-// Vertical Collision
-if (place_meeting(x,y+vsp,oGrass1))
-{
-	while (!place_meeting(x,y+sign(vsp),oGrass1))
-	{
-		y = y + sign(vsp);
-	}
-	vsp = 0;
+} else {
+	// sprite_index =
 }
 
+if (place_meeting(x + xSpeed, y, oGrass1)) {
+	xSpeed = 0;
+}
 
-y = y + vsp;
+if (sprint){
+	x += xSpeed + 2;
+}else{
+	x += xSpeed;
+}
+
+if (place_meeting(x, y + xSpeed + 10, oGrass1)) {
+	ySpeed = 0;
+}
+
+if (sprint){
+	y += ySpeed + 2;
+}else{
+	y += ySpeed;
+}
