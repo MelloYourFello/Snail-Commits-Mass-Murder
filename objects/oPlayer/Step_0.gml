@@ -13,6 +13,7 @@ vsp = vsp + grv;
 if (place_meeting(x,y+1,oWall)) && (key_jump)
 {
 	vsp = -7;
+	audio_play_sound(Jump, 10, false);
 }
 
 // Horizontal Collision
