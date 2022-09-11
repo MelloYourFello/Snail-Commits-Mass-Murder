@@ -22,6 +22,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_276B727F","properties":[],"isDnd":false,"objectId":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.2289973,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":367.9359,"y":815.93616,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F0A261B","properties":[],"isDnd":false,"objectId":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":816.0,"y":688.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7DF8B3F1","properties":[],"isDnd":false,"objectId":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1584.0,"y":688.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_41A91E3D","properties":[],"isDnd":false,"objectId":{"name":"oDirt3","path":"objects/oDirt3/oDirt3.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1952.0,"y":736.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Walls","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6A2DB07D","properties":[],"isDnd":false,"objectId":{"name":"oGrass1","path":"objects/oGrass1/oGrass1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":64.0,"y":864.0,},
@@ -1300,6 +1301,7 @@
     {"name":"inst_276B727F","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_F0A261B","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7DF8B3F1","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_41A91E3D","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
