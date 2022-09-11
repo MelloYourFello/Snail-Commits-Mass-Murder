@@ -20,6 +20,7 @@
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":10,},
     {"id":{"name":"oGrass1","path":"objects/oGrass1/oGrass1.yy",},"order":1,},
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":8,},
+    {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":12,},
     {"id":{"name":"oGrass3","path":"objects/oGrass3/oGrass3.yy",},"order":3,},
     {"id":{"name":"oDirt1","path":"objects/oDirt1/oDirt1.yy",},"order":6,},
     {"id":{"name":"spr_dirt3","path":"sprites/spr_dirt3/spr_dirt3.yy",},"order":7,},
