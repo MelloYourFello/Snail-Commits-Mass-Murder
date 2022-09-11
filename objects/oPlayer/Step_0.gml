@@ -1,7 +1,7 @@
 var xDirection = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var jump = keyboard_check_pressed(vk_space);
 var onTheGround = place_meeting(x, y + 1, oGrass1);
-var sprint = keyboard_check(ord(vk_space))
+var sprint = keyboard_check(vk_shift);
 
 if (isDead = true){
 	if (timer > 0)
@@ -38,10 +38,7 @@ if (onTheGround) {
      sprite_index = sPlayerA;
 }
 
-if (sprint) {
-    spd = abs((xDirection*w_spd) - (sprint*sprintSpd));
-}
-else {spd = w_spd;}
+if (sprint) { spd = sprintSpd } else {spd = w_spd }
 
 if (place_meeting(x + xSpeed, y, oGrass1)) {
     xSpeed = 0;
