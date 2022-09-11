@@ -22,6 +22,7 @@
     {"id":{"name":"oDirt2","path":"objects/oDirt2/oDirt2.yy",},"order":5,},
     {"id":{"name":"sPlayerD","path":"sprites/sPlayerD/sPlayerD.yy",},"order":14,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":9,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":1,},
     {"id":{"name":"oBullet","path":"objects/oBullet/oBullet.yy",},"order":11,},
     {"id":{"name":"sPlayerR","path":"sprites/sPlayerR/sPlayerR.yy",},"order":10,},
     {"id":{"name":"oGrass1","path":"objects/oGrass1/oGrass1.yy",},"order":1,},
@@ -29,8 +30,11 @@
     {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},"order":8,},
     {"id":{"name":"spr_spike","path":"sprites/spr_spike/spr_spike.yy",},"order":12,},
     {"id":{"name":"oGrass3","path":"objects/oGrass3/oGrass3.yy",},"order":3,},
+    {"id":{"name":"oStar","path":"objects/oStar/oStar.yy",},"order":12,},
+    {"id":{"name":"LevelChange","path":"sounds/LevelChange/LevelChange.yy",},"order":3,},
     {"id":{"name":"oDirt1","path":"objects/oDirt1/oDirt1.yy",},"order":6,},
     {"id":{"name":"spr_dirt3","path":"sprites/spr_dirt3/spr_dirt3.yy",},"order":7,},
+    {"id":{"name":"spr_Star","path":"sprites/spr_Star/spr_Star.yy",},"order":17,},
     {"id":{"name":"sBullet","path":"sprites/sBullet/sBullet.yy",},"order":16,},
     {"id":{"name":"oDirt3","path":"objects/oDirt3/oDirt3.yy",},"order":4,},
     {"id":{"name":"sPlayerA","path":"sprites/sPlayerA/sPlayerA.yy",},"order":11,},
@@ -50,6 +54,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
@@ -73,7 +78,9 @@
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","isScaled":true,"compressFormat":"bz2","autocrop":true,"border":2,"mipsToGenerate":0,"groupParent":null,"targets":-1,},
   ],
-  "IncludedFiles": [],
+  "IncludedFiles": [
+    {"resourceType":"GMIncludedFile","resourceVersion":"1.0","name":"snail_house.mp4","CopyToMask":-1,"filePath":"datafiles",},
+  ],
   "MetaData": {
     "IDEVersion": "2022.8.0.34",
   },
