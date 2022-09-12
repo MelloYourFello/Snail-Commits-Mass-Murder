@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "oPlayer",
-  "spriteId": null,
+  "spriteId": {
+    "name": "sPlayer",
+    "path": "sprites/sPlayer/sPlayer.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
