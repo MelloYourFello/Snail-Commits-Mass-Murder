@@ -1,4 +1,4 @@
-
+scale = abs(image_xscale);
 vsp = 0;
 grv = 0.3;
 walkspd = 2;

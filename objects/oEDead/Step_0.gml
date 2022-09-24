@@ -1,7 +1,7 @@
 if (done == 0)
 {
 	vsp = vsp + grv;
-
+	
 	if (place_meeting(x+hsp,y,oGrass1))
 	{
 		while (!place_meeting(x+sign(hsp),y,oGrass1))

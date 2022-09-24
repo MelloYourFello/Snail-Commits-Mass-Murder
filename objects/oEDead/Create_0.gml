@@ -1,4 +1,4 @@
-hsp = 3;
+hsp = lengthdir_x(3,direction);
 vsp = -4;
 grv = 0.3;
 done = 0;

@@ -1,5 +1,7 @@
 vsp = vsp + grv;
 
+if (sign(hsp) != 0) image_xscale = sign(hsp) * abs( other.image_xscale );
+
 if (place_meeting(x+hsp,y,oGrass1))
 {
 	while (!place_meeting(x+sign(hsp),y,oGrass1))
