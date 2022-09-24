@@ -3,7 +3,7 @@ vsp = 0;
 grv = 0.3;
 walkspd = 2;
 hsp = walkspd;
-
+size = 3;
 hp = 4;
 flash = 0;
 hitfrom = 0;
