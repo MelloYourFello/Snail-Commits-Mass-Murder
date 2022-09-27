@@ -16,6 +16,7 @@
     {"id":{"name":"DrawSetText","path":"scripts/DrawSetText/DrawSetText.yy",},"order":2,},
     {"id":{"name":"spr_grass2","path":"sprites/spr_grass2/spr_grass2.yy",},"order":5,},
     {"id":{"name":"sGunitem","path":"sprites/sGunitem/sGunitem.yy",},"order":23,},
+    {"id":{"name":"sAmerican","path":"sprites/sAmerican/sAmerican.yy",},"order":25,},
     {"id":{"name":"EnemyDeath","path":"sounds/EnemyDeath/EnemyDeath.yy",},"order":4,},
     {"id":{"name":"oDirt4","path":"objects/oDirt4/oDirt4.yy",},"order":7,},
     {"id":{"name":"shWhite","path":"shaders/shWhite/shWhite.yy",},"order":0,},
