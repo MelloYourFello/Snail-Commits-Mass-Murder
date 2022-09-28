@@ -1,0 +1,1 @@
+y = oShotgun.y-10;

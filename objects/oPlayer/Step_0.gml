@@ -19,7 +19,11 @@ else {
 
 
 // Movement
-xSpeed = xDirection * spd;
+xSpeed = (xDirection * spd) + gunkickx;
+gunkickx = 0;
+
+ySpeed = ySpeed + gunkicky;
+gunkicky = 0;
 ySpeed++;
 
 if (xDirection != 0){
