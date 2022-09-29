@@ -1,1 +1,1 @@
-y = oShotgun.y-20;
+y = oGun.y-20;

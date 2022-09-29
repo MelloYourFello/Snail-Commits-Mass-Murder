@@ -6,20 +6,23 @@ image_angle = point_direction(x,y,mouse_x,mouse_y);
 firingdelay = firingdelay - 1;
 recoil = max(0,recoil - 1);
 
+if (refire > 0)
+	refire -= 1
+	
 if (mouse_check_button(mb_left)) && (firingdelay < 0){
 	firingdelay = 30;
 	recoil = 10;
 	ScreenShake(2,10);
-	with (instance_create_layer(x,y,"Bullets",oSBullet)){
+	shoot( image_angle + random_range(-3,3));
+	with (shoot){
 		speed = 25;
 		audio_play_sound(Shoot, 1, false);
 		direction = other.image_angle + random_range(-3,3);
-		image_angle = direction;
 	}
 	with (oPlayer)
 	{
-		gunkickx = lengthdir_x(1.5, other.image_angle-180);
-		gunkicky = lengthdir_y(1.5, other.image_angle-180);
+		gunkickx = lengthdir_x(5.5, other.image_angle-180);
+		gunkicky = lengthdir_y(5.5, other.image_angle-180);
 	}
 }
 
