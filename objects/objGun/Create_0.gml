@@ -10,6 +10,8 @@ shoot	= function( _direction ) {
 	}
 	
 }
+
+
 barrelOffsetX	= 0;
 barrelOffsetY	= 0;
 bullet			= oBullet;

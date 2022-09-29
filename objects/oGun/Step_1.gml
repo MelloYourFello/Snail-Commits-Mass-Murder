@@ -1,5 +1,5 @@
 x = oPlayer.x;
-y = oPlayer.y+25;
+y = oPlayer.y+20;
 
 image_angle = point_direction(x,y,mouse_x,mouse_y);
 
