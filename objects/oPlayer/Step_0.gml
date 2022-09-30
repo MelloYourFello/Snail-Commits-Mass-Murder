@@ -26,12 +26,6 @@ ySpeed = ySpeed + gunkicky;
 gunkicky = 0;
 ySpeed++;
 
-if (xDirection != 0){
-		if (isDead = true){
-			image_xscale = image_xscale;
-		}
-		else image_xscale = xDirection * scale;  
-}
 canJump -= 1;
 if (canJump > 0) && (jump) {
 		ySpeed = -15;
@@ -61,10 +55,7 @@ if (place_meeting(x + xSpeed, y, oGrass1)) {
 }
 
 if (place_meeting(x, y, oSpike)) {
-    xSpeed = 0;
-	ySpeed = 0;
-	sprite_index = sPlayerD;
-	isDead = true;
+    KillPlayer();
 }
 
 x += xSpeed;

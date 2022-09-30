@@ -15,5 +15,6 @@ if (hp <= 0)
 		global.killsthisroom++;
 		with (oGame) killtextscale = 2;
 	}
+	with (mygun) instance_destroy();
 	instance_destroy();
 }

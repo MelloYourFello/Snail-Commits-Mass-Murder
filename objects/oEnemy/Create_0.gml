@@ -1,9 +1,9 @@
-scale = abs(image_xscale);
-vsp = 0;
-grv = 0.3;
-walkspd = 2;
-hsp = walkspd;
-size = 3;
-hp = 4;
-flash = 0;
-hitfrom = 0;
+if (hasGun)
+{
+	mygun = instance_create_layer(x,y,"Gun",oEGun);
+	with (mygun)
+	{
+		owner = other.id;
+	}
+}
+else mygun = noone;
