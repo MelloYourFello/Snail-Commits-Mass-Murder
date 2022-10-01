@@ -10,11 +10,6 @@ if (isDead = true){
 {
    timer --;
 }
-else {
-	audio_play_sound(Death, 10, false);
-	room_restart();
-	global.kills -= global.killsthisroom;
-}
 }
 
 
@@ -37,6 +32,13 @@ if (canJump > 0) && (jump) {
 }
 
 // Animation
+if (xDirection != 0){
+        if (isDead = true){
+            image_xscale = image_xscale;
+        }
+        else image_xscale = xDirection * scale;  
+}
+
 if (onTheGround) {
 	canJump = 10;
     if (xDirection != 0) { sprite_index = sPlayerR; }
